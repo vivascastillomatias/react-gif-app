@@ -1,0 +1,15 @@
+body {
+    padding: 15%;
+}
+
+.__form input, button {
+    margin-top: 2%;
+}
+
+.blockquote {
+    display: flex;
+}
+
+button {
+    margin-right: 2%;
+}

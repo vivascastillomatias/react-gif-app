@@ -21,6 +21,7 @@ export function AddCategory({setCategories}) {
     return (
         <>
         <form onSubmit={handleSubmit}>
+            <p>{inputValue}</p>
             <h5>Add Category</h5>
             <input 
                 type='text'

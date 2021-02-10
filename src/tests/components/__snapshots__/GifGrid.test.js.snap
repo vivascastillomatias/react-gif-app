@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GifGrid /> Construcción correcta del componente 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Rap
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    loading...
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Pruebas en <GifGrid /> Debe de mostrar items cuando se cargan imágenes 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Rap
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="id1"
+      key="id1"
+      title="image1"
+      url="urlImage1"
+    />
+    <GifGridItem
+      id="id2"
+      key="id2"
+      title="image2"
+      url="urlImage2"
+    />
+  </div>
+</Fragment>
+`;

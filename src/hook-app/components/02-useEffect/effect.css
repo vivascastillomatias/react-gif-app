@@ -1,0 +1,7 @@
+body {
+    padding: 15%;
+}
+
+.__form input, button {
+    margin-top: 2%;
+}
